@@ -20,12 +20,9 @@ export default defineConfig({
     esbuild: {
         jsx: 'automatic',
     },
-server:{
-    https:false,
-    host:true,
-    port:5173,
-    hmr:{
-        host:'calwyn-lv.test',
-    }
-}
+// server:{
+//     https:false,
+//     host:'calwyn-lv.test',
+
+// }
 });
